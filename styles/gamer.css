@@ -1,0 +1,143 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+nav{
+    background-color: #FFF;
+}
+.nav-container{
+    
+    width:50%;
+    display: flex;
+    align-items: right;
+    max-width: 1400px;
+margin:0 auto;
+ }
+
+.logo-container{
+    
+    display: flex;
+    width:50%;
+    
+
+}
+.logo-container img{
+    
+    width: 90px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 20px;
+    
+    
+}
+.logo-container p{
+    font-size: 30px;
+    
+    
+}
+.G-section{
+    color:#FF42A5;
+
+}
+
+
+
+   
+.nav-items-container{
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #3C354F;
+
+}
+.Follow-btn{
+    background-color:rgba(11, 2, 35, 0.10);
+    padding: 10px 40px;
+
+font-weight: 500;
+text-align: center;
+border-radius: 5px;
+
+
+}
+/* nav design ends here*/
+.banner-container{
+    
+    margin:50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    
+    
+}
+
+
+.banner-img{
+    
+   
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+    text-align: right;
+    
+    
+}
+/*.banner-text{
+    
+    width:50%;
+    text-align: center;
+}*/
+.banner-img-border{
+    width: 10%;
+    height: 10%;
+    
+}
+ .banner-text h1{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+    text-align: center;
+}
+.banner-text-h2{
+    text-align: center;
+}
+.banner-text-h4{
+    text-align: center;
+    color:#534C64;
+}
+.fa-brands{
+    font-size: 15px;
+    
+}
+.banner-button-1{
+    background-color:  #FF42A5 ;
+    padding:20px 40px;
+    border-radius: 50px;
+    color: #FFF;
+    border:#FF42A5;
+
+}
+.banner-button-2{
+    background-color:  #4EC5F7 ;
+    padding:20px 40px;
+    border-radius: 50px ;
+    font-weight:500 ;
+    text-align: center;
+    color:white;
+    border:#4EC5F7;
+}

@@ -1,0 +1,17 @@
+@media  screen and (max-width:400px) {
+ .nav-container{
+
+    flex-direction: column;
+ }   
+
+ .nav-items-container{
+    flex-direction: column;
+ }
+
+ .nav-items-container a{
+    margin-top: 20px;
+ }
+ .Follow-btn{
+    width:50%;
+}
+}
